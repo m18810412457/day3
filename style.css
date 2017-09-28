@@ -1,0 +1,145 @@
+*{margin: 0;padding: 0;}
+html,body,.box{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: .14rem;
+}
+html{
+	font-size: 625%;
+	background: #f8f6f6;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+}
+%qzj{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header{
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    background: #fff;
+    text-align: center;
+    display: flex;
+}
+header span{
+	flex:1;
+}
+header b{
+	padding: 0 .1rem .16rem .1rem;
+	font-weight: normal;
+	color: #666;
+}
+header .bg b{
+	color: #94A7F8;
+	border-bottom: 2px solid #94A7F8;
+}
+section{
+    width: 100%;
+    flex: 1;
+    overflow-y:scroll; 
+}
+footer{
+    width: 100%;
+}
+.big{
+	background: #fff;
+	margin-top: .1rem;
+	padding-top: .15rem;
+}
+.one{
+	width: 90%;
+	height: 1.1rem;
+	margin-left: 5%;
+	background: #fff;
+	margin-bottom: .15rem;
+}
+.t{
+	background: #FD6060;
+	height: .6rem;
+	position: relative;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+.t span{
+	font-size: .3rem;
+	color: #fff;
+	position: absolute;
+	top:0rem;
+	left:.1rem;
+}
+.t b{
+	font-size: .5rem;
+	color: #fff;
+	position: absolute;
+	top: -0.05rem;
+	left: .5rem;
+}
+.t strong{
+	color: #fff;
+	position: absolute;
+	right: 0rem;
+	font-weight: normal;
+	font-size: .24rem;
+	right:0.05rem;
+	bottom: 0.05rem;
+}
+.b{
+	background: #fff;
+	height: .5rem;
+	border:1px solid #ccc;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+.b .p1 {
+	color: #A4DFC8;
+	font-size: .12rem;
+	margin-left: .15rem;
+	margin-top: .05rem;
+}
+.b .p2{
+	font-size: .12rem;
+	margin-left: .15rem;
+}
+.b .p1 i{
+	width: .2rem;
+	height: .2rem;
+	vertical-align: middle;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image:url(img/b.png);
+	background-position:  0 0 ;
+	background-size: 100%;
+}
+
+.b .p2 i{
+	width: .2rem;
+	height: .2rem;
+	vertical-align: middle;
+	display: inline-block;
+	background-image:url(img/b.png);
+	background-size: 100%;
+	background-position:  0.2rem -0.23rem ;
+}
+.t2{
+	background: #5686F4;
+}
+.t3{
+	background: #965DF5;
+}
+.t4{
+	background: #4BC670;
+}
+.s2,.s3{
+	display: none;
+}
